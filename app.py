@@ -177,7 +177,7 @@ def generate_pdf_report(prediction, confidence, normal_prob, pneumonia_prob):
         "only and should not be used as a substitute for professional medical diagnosis or clinical judgment."
     )
     
-    return pdf.output(dest="S").encode("latin1")
+    return bytes(pdf.output())
 
 # ==========================================
 # Upload Image & Inference Section
