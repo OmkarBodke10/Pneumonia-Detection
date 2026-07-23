@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Dataset
+data/
+
+# Downloaded zip
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
