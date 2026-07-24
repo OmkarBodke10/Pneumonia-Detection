@@ -1,6 +1,12 @@
 # Virtual environment
 venv/
 
+# Secrets & Local Configs
+.env
+
+# Databases
+*.db
+
 # Dataset
 data/
 
